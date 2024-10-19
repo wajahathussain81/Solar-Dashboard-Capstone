@@ -1,0 +1,7 @@
+flask
+pandas
+datetime
+sqlalchemy
+requests
+apscheduler
+Flask-CORS

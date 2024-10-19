@@ -1,0 +1,8 @@
+{
+  "api_endpoints": {
+    "site_list": "https://monitoringapi.solaredge.com/sites/list?",
+    "site_date_range": "https://monitoringapi.solaredge.com/sites/{site}/dataPeriod?",
+    "site_aggr_data": " https://monitoringapi.solaredge.com/site/{site}/energy?"
+  },
+  "api_key" : "NGCPN9O0TNB6ZCJBNZ2JUDRL56QQTVP3"
+}

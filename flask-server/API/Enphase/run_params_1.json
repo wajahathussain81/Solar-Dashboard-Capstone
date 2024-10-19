@@ -1,0 +1,16 @@
+{
+    "client_id": "742ab084dfd464a20265ac79138e8bd1",
+    "client_secret": "dc1cbb8589ac2f8045f4e3f5fa98e5a8",
+    "api_key": "756303bf388b11cb583a724a19958703",
+    "redirect_uri": "https://api.enphaseenergy.com/oauth/redirect_uri",
+    "token_url": "https://api.enphaseenergy.com/oauth/token",
+    "authorization_url": "https://api.enphaseenergy.com/oauth/authorize?response_type=code&client_id=742ab084dfd464a20265ac79138e8bd1&redirect_uri=https://api.enphaseenergy.com/oauth/redirect_uri",
+    "authorization_code": "Om9uck",
+    "token_endpoint": "https://api.enphaseenergy.com/oauth/token",
+    "access_token": "eyJhbGciOiJSUzI1NiJ9.eyJhcHBfdHlwZSI6InN5c3RlbSIsInVzZXJfbmFtZSI6InJvbi5yYXltb25kQGNhbGdhcnkuY2EiLCJlbmxfY2lkIjoiMjk1ODIiLCJlbmxfcGFzc3dvcmRfbGFzdF9jaGFuZ2VkIjoiMTU4NTk1MDY2MiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJjbGllbnRfaWQiOiI3NDJhYjA4NGRmZDQ2NGEyMDI2NWFjNzkxMzhlOGJkMSIsImF1ZCI6WyJvYXV0aDItcmVzb3VyY2UiXSwiaXNfaW50ZXJuYWxfYXBwIjpmYWxzZSwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sImV4cCI6MTcxMjI1MzIxOSwiZW5sX3VpZCI6IjMxOTcxNCIsImFwcF9JZCI6IjE0MDk2MjQ0MDk5OTgiLCJqdGkiOiIyZWJiMjZlZS0wYWIzLTQxOTYtYmZiZC03M2Y0YTZlY2Q5NmEifQ.h5Vno64jGnV7t5Iip9USHazfO1laIMsowFUu7Xeuy3dBXecrzxCz6zsjyV-391mBy031W2hJFnr7g7s_8Vo7fIkJfErZQxE2Oh8tvG0wQn0LnE0ftp0UpBDXzpq41zNALG_H8CcOcQdMIgJEmRkrrQi3QQCLfwZ7GIEpVLZ1fZA",
+    "refresh_token": "eyJhbGciOiJSUzI1NiJ9.eyJhcHBfdHlwZSI6InN5c3RlbSIsInVzZXJfbmFtZSI6InJvbi5yYXltb25kQGNhbGdhcnkuY2EiLCJlbmxfY2lkIjoiMjk1ODIiLCJlbmxfcGFzc3dvcmRfbGFzdF9jaGFuZ2VkIjoiMTU4NTk1MDY2MiIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJjbGllbnRfaWQiOiI3NDJhYjA4NGRmZDQ2NGEyMDI2NWFjNzkxMzhlOGJkMSIsImF1ZCI6WyJvYXV0aDItcmVzb3VyY2UiXSwiaXNfaW50ZXJuYWxfYXBwIjpmYWxzZSwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sImF0aSI6IjJlYmIyNmVlLTBhYjMtNDE5Ni1iZmJkLTczZjRhNmVjZDk2YSIsImV4cCI6MTcxNDc5NjU2NSwiZW5sX3VpZCI6IjMxOTcxNCIsImFwcF9JZCI6IjE0MDk2MjQ0MDk5OTgiLCJqdGkiOiI5M2ZmZWQ1NS1lYjA0LTQ4YzUtODEyNy0zN2IwNmM1MjEzYzEifQ.DF7Vfza_G4bTy3t5B_mPYG8h4FiiTiud6_UvfXgZQFY_Gug-4VRpRrAVRD1KpL2fNMvtSbmnhUj2gUvoMuRO6VxZviifiP2zwI99rWM1Ro2P5Dp3cseVsu-xeDX8h3ShPLlMnNlkwuir_S-JQH98OxukH42x6eMpwf2ogoBK_ys",
+    "api_endpoint": "https://api.enphaseenergy.com/api/v4/systems",
+    "API_Count": 15,
+    "Operational": true,
+    "Consecutive_Failures": 0
+}

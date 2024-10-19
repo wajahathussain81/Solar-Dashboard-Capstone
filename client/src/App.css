@@ -1,0 +1,187 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(226, 165, 165);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.stock-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.stock-chart-canvas {
+  max-width: 100%;
+}
+
+.download-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c8102e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.download-button:hover {
+  background-color: #5d6066;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Increase margin for more spacing */
+  padding: 10px; /* Add padding for a cleaner look */
+  border: 1px solid #ddd; /* Add a border for separation */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.data-item {
+  margin-bottom: 10px; /* Add space after each data item */
+}
+
+/* Apply modern styles to date inputs */
+input[type="date"] {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  margin-left: 10px; /* Add some space between inputs */
+}
+
+/* Apply hover effect to date inputs */
+input[type="date"]:hover {
+  border-color: #999;
+}
+
+/* Apply focus styles to date inputs */
+input[type="date"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-btn.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.date-range-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: -75px;
+}
+
+.interval-container {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  align-self: flex-end;
+  margin-top: -35px;
+}
+
+.interval-btn {
+  background-color: #5d6066; /* Default grey color */
+  color: white; /* Default text color */
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.interval-btn.active {
+  background-color: #c8102e; /* Active red color */
+  color: white; /* Active text color */
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+}
+
+.row-container label {
+  margin-right: 30px; /* Adjust margin as needed */
+}
+
+/* Styles for the select label */
+.select-label {
+  font-size: 22px;
+  color: #333;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Styles for the select box */
+.select-box {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select-box:focus {
+  outline: none;
+  border-color: #007bff; /* Change the border color on focus */
+}
+
