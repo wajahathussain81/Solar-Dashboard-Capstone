@@ -4,5 +4,5 @@
     "site_date_range": "https://monitoringapi.solaredge.com/sites/{site}/dataPeriod?",
     "site_aggr_data": " https://monitoringapi.solaredge.com/site/{site}/energy?"
   },
-  "api_key" : "NGCPN9O0TNB6ZCJBNZ2JUDRL56QQTVP3"
+  "api_key" : "MY_API_KEY"
 }

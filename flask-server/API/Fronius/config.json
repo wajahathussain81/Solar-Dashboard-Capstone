@@ -1,7 +1,7 @@
 {
   "api_key": {
-    "AccessKeyId": "FKIAF021D1929BE747A0B9FF2573273565A3",
-    "AccessKeyValue": "de9c19ca-5de0-4be5-b997-cb04db614eaf"
+    "AccessKeyId": "MY_ACCESS_KEY_ID",
+    "AccessKeyValue": "MY_ACCESS_KEY_VALUE"
   },
   "api_endpoints": {
     "site_details": "https://api.solarweb.com/swqapi/pvsystems",
