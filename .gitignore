@@ -1,20 +1,23 @@
-*.png
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+*.log
 
-*.pyc
-
-*.csv
-
-*.xml
-
-*.iml
-
+# SQLite databases
 *.db
 
-*.ipynb
-
-*.DS_Store
-
-API-Key*
-
+# IDE
 .idea/
-client/package-lock.json
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
